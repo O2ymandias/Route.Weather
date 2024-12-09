@@ -1,0 +1,121 @@
+.color__info {
+    color: #009ad8;
+}
+
+.color__Secondary {
+    color: #bfc1c8;
+}
+
+body {
+    background-color: #1e202b;
+}
+
+
+#navbar .nav-link {
+    color: white;
+    border: 3px solid transparent;
+    border-radius: 50rem;
+    transition: border-color 0.6s;
+}
+
+#navbar .nav-link:hover,
+#navbar .nav-link.active {
+    color: #009ad8;
+    border-color: #009ad8;
+}
+
+#navbar i {
+    color: #009ad8;
+}
+
+#navbar .navbar-toggler {
+    border: none;
+}
+
+#navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+header {
+    background-image: url(./../images/banner.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+input {
+    display: block;
+    background-color: #1e202b;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+    border-style: none;
+    border-radius: 50rem;
+}
+
+button {
+    background-color: #009ad8;
+    color: white;
+    font-size: 1rem;
+    border: 3px solid #009ad8;
+    border-radius: 50rem;
+    right: 10px;
+}
+
+.cursor__unset {
+    cursor: unset !important;
+}
+
+.weather__item {
+    background-color: #323544;
+}
+
+.weather__item__stripped {
+    background-color: #262936;
+}
+
+.weather__item>div:first-child,
+.weather__item__stripped>div:first-child {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    background-color: #262936;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #1e202b;
+    cursor: pointer;
+    transition: background-color 0.6s;
+}
+
+.icon i {
+    transition: color 0.6s;
+}
+
+.icon:hover {
+    background-color: #009ad8;
+}
+
+.icon:hover i {
+    color: white;
+}
+
+main {
+    transform: translateY(-5%);
+}
+
+@media (min-width: 786px) {
+    main {
+        transform: translateY(-20%);
+    }
+}
