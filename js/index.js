@@ -1,5 +1,5 @@
 "use strict";
-const apiKey = "a9f2e415f6274499800121048240912";
+const apiKey = "1e3d6803c1cd46aa87a212510241612";
 const todayWeather = document.querySelector("#todayWeather");
 const tomorrowWeather = document.querySelector("#tomorrowWeather");
 const dayAfterTomorrowWeather = document.querySelector(
@@ -235,7 +235,7 @@ navigator.geolocation.getCurrentPosition(
 		if (data.status === 200) renderWeather(data);
 		else
 			renderError(
-				`Make sure your API key is valid and try again (${data.status}). TRIAL Ends on 17/Dec/2024`
+				`Make sure your API key is valid and try again (${data.status}). TRIAL Ends on 30/Dec/2024`
 			);
 	},
 	(_) => {
